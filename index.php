@@ -283,7 +283,7 @@ if ($cdata2 == "free") {
 <b>× GATEWAY - BRAINTREE $1 AVS</b>
 <b>× USAGE - <code>/ba cc|mm|yy|cvv</code></b>
 <b>× RANK - <code>SPECIAL GRADE</code></b>
-<b>× STATUS - <code>ON ✅</code></b>
+<b>× STATUS - <code>Off ❌</code></b>
 - - - - - - - - - - - - - - - - - - -
 <b>× GATEWAY - PAYPAL 0.01$</b>
 <b>× USAGE - <code>/pp cc|mm|yy|cvv</code></b>
@@ -565,7 +565,7 @@ if ($cdata2 == "premium") {
 <b>× STATUS - <code>OFF ❌</code></b>
 - - - - - - - - - - - - - - - - - - -
 <b>× GATEWAY - BRAINTREE AUTH [V2]</b>
-<b>× USAGE - <code>/bu cc|mm|yy|cvv</code></b>
+<b>× USAGE - <code>/sb cc|mm|yy|cvv</code></b>
 <b>× RANK - <code>SPECIAL GRADE</code></b>
 <b>× STATUS - <code>ON ✅</code></b>
 - - - - - - - - - - - - - - - - - - -
