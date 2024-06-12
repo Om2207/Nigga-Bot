@@ -1,7 +1,12 @@
-{ pkgs }: {
-	deps = [
-   pkgs.unzip
-		pkgs.php80Packages.composer
-  pkgs.php82
-	];
-}
+run = "php -S 0.0.0.0:8000 -t ."
+
+[nix]
+channel = "stable-22_11"
+
+[deployment]
+run = ["sh", "-c", "php -S 0.0.0.0:8000 -t ."]
+deploymentTarget = "cloudrun"
+
+[[ports]]
+localPort = 8000
+externalPort = 80
