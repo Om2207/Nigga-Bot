@@ -290,6 +290,11 @@ if ($cdata2 == "free") {
 <b>× RANK - <code>SPECIAL GRADE</code></b>
 <b>× STATUS - <code>ON ✅</code></b>
 - - - - - - - - - - - - - - - - - - -
+<b>× GATEWAY - PAYPAL Mass1$</b>
+<b>× USAGE - <code>/msp cc|mm|yy|cvv</code></b>
+<b>× RANK - <code>SPECIAL GRADE</code></b>
+<b>× STATUS - <code>ON ✅</code></b>
+- - - - - - - - - - - - - - - - - - -
 <b>× GATEWAY - STRIPE 12.48$</b>
 <b>× USAGE - <code>/str cc|mm|yy|cvv</code></b>
 <b>× RANK - <code>SPECIAL GRADE</code></b>
@@ -395,6 +400,11 @@ if ($cdata2 == "freea") {
 - - - - - - - - - - - - - - - - - - -
 <b>× GATEWAY - STRIPE 8.61$</b>
 <b>× USAGE - <code>/sec cc|mm|yy|cvv</code></b>
+<b>× RANK - <code>SPECIAL GRADE</code></b>
+<b>× STATUS - <code>ON ✅</code></b>
+- - - - - - - - - - - - - - - - - - -
+<b>× GATEWAY - MASS STRIPE AUTH</b>
+<b>× USAGE - <code>/mstr cc|mm|yy|cvv</code></b>
 <b>× RANK - <code>SPECIAL GRADE</code></b>
 <b>× STATUS - <code>ON ✅</code></b>
 - - - - - - - - - - - - - - - - - - -
@@ -652,10 +662,6 @@ if ($cdata2 == "herr") {
 × USAGE - <code>/id</code>
 × STATUS - <code>ON ✅</code>
 - - - - - - - - - - - - - - - - - - -
-× IP LOOKUP - <code>/ip</code>
-× USAGE - <code>/ip 1.1.1.1</code>
-× STATUS - <code>ON ✅</code>
-- - - - - - - - - - - - - - - - - - -
 × BIN LOOKUP - <code>/bin</code>
 × USAGE - <code>/bin 509786</code>
 × STATUS - <code>ON ✅</code>
@@ -664,7 +670,7 @@ if ($cdata2 == "herr") {
 × USAGE - <code>/gen 509786XXX|XX|XX|XXX</code>
 × STATUS - <code>ON ✅</code>
 - - - - - - - - - - - - - - - - - - -
-× CREADIT'S CHECK- <code>/credits</code>
+× CREDIT'S CHECK- <code>/credits</code>
 × USAGE - <code>/credits check</code>
 × STATUS - <code>ON ✅</code>
 - - - - - - - - - - - - - - - - - - -
