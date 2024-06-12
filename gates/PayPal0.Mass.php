@@ -63,7 +63,7 @@ $r = "0";
 
 $r = rand(0, 100);
 //=====WHO CAN CHECK FUNC END======//
-if (preg_match('/^(\/masspp|\.masspp|!masspp)/', $text)) {
+if (preg_match('/^(\/msp|\.msp|!msp)/', $text)) {
     $userid = $update['message']['from']['id'];
 
     if (!checkAccess($userid)) {
